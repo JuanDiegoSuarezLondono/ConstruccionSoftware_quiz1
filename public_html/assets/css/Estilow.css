@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2019, 7:33:11 AM
+    Author     : suare
+*/
+
+.barraInicio {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+#id1 {
+    background: #2f798b;
+    width: 100%;
+    height: 3em;
+    color: white;
+}
+
+.listas {
+    width: 30%;
+    float: left;
+    margin: 1%;    
+}
+
+.limpiar {
+    clear: both;
+}
+
+.imagen {
+    width: 80%;
+    height: 80%;
+    border: solid;
+    border-color: violet;
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5%;   
+}
+
+.cuadro {
+    background: #2f798b;
+    width: 100%;
+}
+
+.grumpy {
+    width: 50%;
+    float: left;
+    margin-right: 1em;
+    height: 20em;
+}
+
+#id2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0.2em solid;
+    height: 20em;
+}
+.contacto{
+    background: cadetblue;
+    width: 100;
+    height: 14em;
+}
+
+#id3 {
+    margin: 1.5%;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    float: left;
+    border: 0.2em solid;
+    width: 30%;
+    height: 60%;
+    margin-left: 1.5% 
+}
+
+.diosTodoPoderosoDeMiKora {
+    width: 100%;
+    height: 5em;
+}

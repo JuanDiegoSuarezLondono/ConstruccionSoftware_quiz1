@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/Estilow.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/owl.theme.default.css" rel="stylesheet" type="text/css"/>
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+        <script>
+        $(document).ready(function(){               
+        $('.owl-carousel').owlCarousel({
+            center: true,
+            items:2,
+            loop:true,
+            margin:10,
+            responsive:{
+                600:{
+                    items:4
+                }
+            }
+        })   
+        });
+        </script>
+    </head>
+    <body>
+        
+        <section id="id1">
+            
+            <div class="barraInicio">Contactenos</div>
+            <div class="barraInicio">Productos</div>
+            <div class="barraInicio">Nosotros</div>
+            <div class="barraInicio">Inicio</div>
+            <div><img class="logo" src="assets/img/La Mora Electrica Logo.png" alt=""/></div>           
+            
+            
+            <div class="listas limpiar">
+                <div class="ima">
+                    <img  class="imagen" src="assets/img/Resistencia.jpg" alt=""/>
+                </div>
+                
+                <div class="cuadro">
+                    <h1>Titulo 1</h1>
+                    <p>
+                        Parrafo muy largo y aburrido sobre resistencias, en serio esta muy aburrido... mejor estudiar diseño
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div class="listas">
+                <img  class="imagen" src="assets/img/Condensador.jpg" alt=""/>
+                <div class="cuadro">
+                    <h1>Titulo 2</h1>
+
+                    <p>
+                        Esto es un capacitor, es util para hacer mini cañones que al cargarse de mucha energia salen volando y dejan pelitos
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div class="listas">
+                <img  class="imagen" src="assets/img/Inductor.jpg" alt=""/>
+                <div class="cuadro">
+                    <h1>Titulo 3</h1>
+
+                    <p>
+                        Ahora el famoso inductor, si se hace uno muy grande puede botar rashos... como el de nikola tesla que mato a un elefante, omg pobre Topsy tenia mucho por delante :(
+                    </p>
+                </div>
+            </div>            
+            
+        </section>
+        
+        <section class=" limpiar">
+            <div class="owl-carousel">
+                <div> <img src="assets/img/Resistencia.jpg" alt=""/> </div> 
+                <div> <img src="assets/img/Condensador.jpg" alt=""/> </div>
+                <div> <img src="assets/img/Inductor.jpg" alt=""/> </div>                    
+            </div>  
+        </section>
+        <section id="id2">
+            <div>
+                <img class="grumpy" src="assets/img/Grumpy cat.jpg" alt=""/>
+            </div>
+            <div>
+                <h2> Este es grumpy cat</h2>
+                <p>Mira este gato, te odia a ti y a todos... un ejemplo a seguir. El aprendio que en la vida no s epuede confiar en nadie y menos en un humano,
+                sumandole que es un gato y ellos solo quieren matar humanos</p>
+            </div>
+        </section>
+        
+        <section id="id3">
+            <div class="contacto">
+                <h3>Direccion</h3>
+                <h3>Telefono</h3>
+                <h3>Mapa</h3>
+            </div>
+            <div>
+                <img class="diosTodoPoderosoDeMiKora" src="assets/img/El dios todo poderoso.jpg" alt=""/>
+            </div>
+        </section>
+    </body>
+</html>
